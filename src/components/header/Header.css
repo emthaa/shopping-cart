@@ -1,0 +1,56 @@
+.company-logo{
+    height: var(--company-logo-size);
+    width: var(--company-logo-size);
+
+}
+
+.company-name{
+    margin:  0;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.main-header-left{
+    display: flex;
+    align-items: center;
+
+}
+
+.main-header-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 175px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.cart{
+    background-color: var(--white);
+    border: none;
+    display: flex;
+    cursor: pointer;
+}
+
+.cart-icon{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 2px; /*aligns it with rest of the header*/
+}
+
+.cart-amount{
+    position: relative;
+    bottom: 5px;
+    right: 3px;
+    width: 30px;
+    text-align: left;
+}
