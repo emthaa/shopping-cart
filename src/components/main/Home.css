@@ -1,0 +1,41 @@
+.home-page-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    height: 315px;
+}
+
+.home-page-header{
+    font-size: 60px;
+    text-align: center;
+}
+
+.home-page-description{
+    font-size: 32px;
+    text-align: center;
+}
+
+.home-page-featured{
+    background-color: var(--slight-darker-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.home-page-featured-header{
+    font-size: 36px;
+    text-align: center;
+    margin: auto;
+}
+
+.home-page-featured-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 15px;
+}

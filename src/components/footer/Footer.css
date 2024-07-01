@@ -1,0 +1,18 @@
+footer{
+    left: 0;
+    width: calc(100% - 20px);
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    border-top: 3px solid var(--gray-border);
+    display: flex;
+    align-items: center;
+    z-index: 0;
+        
+}
+
+footer > a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+}

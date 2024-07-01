@@ -1,0 +1,77 @@
+.shopping-cart-card {
+    background-color: var(--slight-darker-white);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    border-radius: 15px;
+}
+
+.shopping-cart-card-image {
+    height: 100px;
+    width: 100px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    object-fit: contain;
+    background-color: white;
+}
+
+.shopping-cart-card-info {
+    width: calc(100% - 110px);
+    padding: 5px;
+    background-color: white;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+.shopping-cart-card-amount,
+.shopping-cart-card-header {
+    display: flex;
+    align-items: center;
+}
+
+.shopping-cart-card-amount {
+    height: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.shopping-cart-card-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 24px;
+}
+
+.shopping-cart-card-price {
+    margin: 0;
+}
+
+.shopping-cart-card-name {
+    line-height: 16px;
+}
+
+.shopping-cart-card-delete-btn,.shopping-cart-card-add-btn,.shopping-cart-card-subtract-btn{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.shopping-cart-card-add-btn,.shopping-cart-card-subtract-btn{
+    width: 25px;
+    height: 25px;
+
+}
+
+.shopping-cart-card-add-btn > img,.shopping-cart-card-subtract-btn > img{
+    width: 25px;
+    height: 25px;
+
+}
+
+.shopping-cart-card-amount-input{
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
