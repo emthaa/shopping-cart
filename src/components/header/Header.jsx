@@ -42,10 +42,10 @@ function Header({shoppingCart,setShoppingCart}) {
         <h1 className="company-name unselectable">Clothing Brand.</h1>
       </div>
       <div className="main-header-right">
-        <Link className="link" to="/">
+        <Link className="link homeLink" to="/">
           Home
         </Link>
-        <Link className="link" to="/Shop">
+        <Link className="link shopLink" to="/Shop">
           Shop
         </Link>
         <button className="cart" onClick={toggleCheckoutMenu}>
